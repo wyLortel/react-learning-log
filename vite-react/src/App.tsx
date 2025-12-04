@@ -1,18 +1,6 @@
-import React, { useState } from 'react'
-
-function App() {
-   const [ count , setCount] = useState(0);
-   const clickHandler = () => {
-    setCount((count)=>count + 1);
-    setCount((count)=> count + 1);
-    setCount((count) => count + 1);
-   }
+export default function App() {
   return (
-    <div>
-      <p>count : {count}</p>
-      <button onClick={clickHandler}>증가</button>
-     </div>
+    <p className='nanum-pen-script-regular'>나눔펜 스크립트</p>
+    
   )
 }
-
-export default App
