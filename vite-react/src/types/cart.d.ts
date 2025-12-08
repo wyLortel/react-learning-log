@@ -1,8 +1,7 @@
-type Item = {
-  items: string[];
-  availableItems:['사과' , "바나나" , "오렌지"]
-};
+interface Items{
+    availabeFruites :string[]
+}
 
-type ReducerAction =
-| {type:'ADD_ITEM'}
-| {type:'REMOVE_ITEM'; index:number}
+type Itemaction =
+| {type:'addItem'}
+|{type:'removeItem', index:number}
