@@ -3,12 +3,12 @@ export default function Button({
 }: {
   handleClick: (
     message: string,
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
   ) => void;
 }) {
   return (
     <>
-      <button onClick={(event) => handleClick("Hello", event)}>클릭</button>
+      <button onClick={(event) => handleClick('Hello', event)}>클릭</button>
     </>
   );
 }

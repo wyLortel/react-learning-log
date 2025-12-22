@@ -14,3 +14,5 @@ export default function App() {
     </>
   );
 }
+
+//이벤트 핸들러의 함수를 별도로 빼는게 더 깔금함

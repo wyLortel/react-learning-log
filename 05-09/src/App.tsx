@@ -1,12 +1,11 @@
-import Button from "./components/ui/Button";
+import Button from './components/ui/Button';
 
 export default function App() {
   const handleClick = (
     message: string,
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
   ) => {
-    console.log(message);
-    console.log(event);
+    event.currentTarget.innerText = message;
   };
   return (
     <>
