@@ -14,7 +14,7 @@ export default function App() {
   const handleReset = () => {
     setCount(0);
   };
-
+  //변경
   return (
     <>
       <h1>카운트: {count}</h1>
