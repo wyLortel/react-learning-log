@@ -1,7 +1,10 @@
 export default function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="flex flex-col items-center justify-center min-h-screen space-y-4">
+        <button className="button">click me</button>
+        <button className="btns">click me</button>
+      </div>
     </>
   );
 }
