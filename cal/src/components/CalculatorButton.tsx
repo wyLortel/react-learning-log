@@ -1,4 +1,4 @@
-import type { ButtonConfigs } from '../types/propd';
+import type { ButtonConfigs } from '../types/props';
 
 function CalculatorButton({ value, className, onClick }: ButtonConfigs) {
   return (
