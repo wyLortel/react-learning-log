@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Checkbox() {
   const [formState, setFormState] = useState({
@@ -22,7 +22,7 @@ export default function Checkbox() {
           onChange={handleFormStateChange}
         />
         <label htmlFor="item1">
-          아이템 1({formState.chk1 ? '선택됨' : '선택되지 않음'})
+          아이템 1({formState.chk1 ? "선택됨" : "선택되지 않음"})
         </label>
       </div>
       <div>
@@ -34,7 +34,7 @@ export default function Checkbox() {
           onChange={handleFormStateChange}
         />
         <label htmlFor="item2">
-          아이템 2({formState.chk2 ? '선택됨' : '선택되지 않음'})
+          아이템 2({formState.chk2 ? "선택됨" : "선택되지 않음"})
         </label>
       </div>
     </div>
