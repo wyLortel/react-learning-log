@@ -7,7 +7,7 @@ export default function Router() {
     //  / 는 홈 컴포넌트를 렌더링해라
     {
       path: '/',
-      element: Home,
+      element: <Home />,
     },
     //어바웃은 경로는 어바웃컴포넌트를 렌더링해라
     {
