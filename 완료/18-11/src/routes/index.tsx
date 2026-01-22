@@ -16,7 +16,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/post',
-        Component: Post,
+        Component: Post, 
       },
       {
         path: '/post-loader',
@@ -26,6 +26,7 @@ const router = createBrowserRouter([
           return data;
         },
         HydrateFallback: PostLoading,
+        errorElement: <h1>에러낫어용</h1>
       },
     ],
   },
